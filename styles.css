@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+	overflow-x: hidden;
+	font-family: 'Lato',sans-serif;
+	color:#505962 ;
+}
+/*---navigation--*/
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .8rem;
+	background-color: rgba(0 ,0 ,0 , 0.6);
+}
+.navbar-brand img {
+	height: 6rem;
+
+}
+
+.heading{
+color: white;	
+}
+
+.nav li{
+	padding-right: .5rem;
+}
+.navbar-dark .nav .nav-link{
+	color: white;
+	padding: .5rem; 
+}
+.navbar-dark .nav .nav-link.active,
+.navbar-dark .nav .nav-link:hover{
+	color: #00CED1;
+}
+/*--landing page--*/
+.home-inner{
+	background-image: url(img/vizag.png);
+
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	height: 80px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background-color:#00CED1;
+	text-align: center;
+
+	}
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	color: none;
+}
+.menu ul li{
+	width: 120px;
+	margin: 14px;
+	padding: 15px;
+	font-size: 16px;
+	visibility: visible;
+	z-index: 100;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+ .menu ul li:hover{
+background-color: #505962;
+border-radius: 3px;
+
+}
+.sub-1{
+	display: none;
+}
+.sub-1 ul li{
+		visibility: visible;
+	z-index: 100;
+}
+ .menu ul li:hover .sub-1{
+ 	display: block;
+ 	position: absolute;
+ 	background:#505962 ;
+ 	margin-top: 15px;
+ 	margin-left: -18px; 
+ }
+ .menu ul li:hover .sub-1 ul{
+ 	display: block;
+ 	margin: 10px;
+}
+ .menu ul li:hover .sub-1 ul li{
+ 	width: 150px;
+ 	padding: 10px;
+ 	border-bottom: 1px dotted #fff;
+ 	background: transparent;
+ 	border-radius: 0;
+ 	text-align: left;
+
+ }
+ .menu ul li:hover .sub-1 ul li:last-child{
+ 	border-bottom: none;
+ }
+ .menu ul li:hover .sub-1 ul li a:hover{
+ 	color:#00CED1;
+ }
+ .menu2{
+ 	display: none;
+ }
+ .hover-me:hover .menu2{
+ 	position: absolute;
+ 	display: block;
+ 	margin-top: -40px;
+ 	margin-left: 140px;
+ 	background:#00CED1;
+ 	;
+ }
+/*.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 38%;
+	z-index: 1;
+	color: black;
+	text-transform: uppercase;
+}
+.caption h1{
+	font-size:3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+    padding-left: 1rem;
+
+}
+.caption h3{
+	font-size: 1rem;
+	text-shadow: .1rem .1rem .5rem black;
+}*/
+.card-deck{
+	
+	padding: -500px;
+
+}
+.icons{
+	
+	position: fixed;
+	top: 30%;
+	left: 0%;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+
+}
+.icons a{
+	text-decoration: none;
+	text-transform: none;
+	padding: 10px;
+	font-size: 20px;
+	font-style: 'Lato',sans-serif;
+    margin: 1px;
+    text-align: right;
+    border-radius: 0px 50px 50px 0px;
+    transform:translate(-166px, 0px); 
+    transition: all 0.5s;
+}
+.icons a:hover{
+ transform: translate(0px, 0px);
+}
+/*.icons a i{
+	margin-left: 20px:
+	background-color:white;
+	height: 40px;
+	width: 40px
+	color: black;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50px; 
+}
+.icons a i .fa-facebook{
+	color: #2C80D3;
+}
+.icons a i .fa-twitter{
+	color: #53c5ff;
+}
+.icons a i .fa-youtube{
+	color: #fa0910;
+}
+.icons a i .fa-instagram{
+	color: #2C80D3;
+}
+.icons a i .fa-linkedin{
+	color: #2C80D3;
+}*/
+
+
+
+.facebook{
+	background-color: #2C80D3;
+	color: white;
+}
+.twitter{
+	background-color: #53c5ff;
+	color: white;
+}
+.youtube{
+	background-color: #fa0910;
+	color: white;
+}
+.instagram{
+	background-color: #FF1493;
+	color: white;
+}
+.linked-in{
+	background-color: #ffffff;
+	color: #00BFFF;
+}
+/*bar--*/
+.card-middle{
+	background-color: #505962;
+}
+.bar{
+ background-color:#00CED1;
+ font-weight: bold;	
+}
+.img-thumbnail1{
+	height: 100px;
+	width: 100px;
+	
+}
+
+/*end of bar*/
+/*cards--*/
+.card-group{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	}
+
+
+.card-title{
+	text-align: center;
+	color: #00BFFF; 
+}
+.card-text{
+	color:#00CED1;
+}
+.card-body:hover{
+	font-family: 'Lato',sans-serif;
+	background-color:#505962; 
+}
+.card-footer{
+	background-color:#00CED1;
+}
+/*--cards end--*/ 
+.text1 a{
+	color:#00CED1;
+	text-transform: uppercase;
+	font-weight:bold;  
+}
+.images a img{
+	border-radius: 3px;
+	align-items: center;
+}
+.image-name{
+	color: #ffffff;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #25383C;
+}
+
